@@ -43,7 +43,8 @@ const requestConfig = {
   walletPrivateKey: process.env["PRIVATE_KEY"],
   // Args (string only array) can be accessed within the source code with `args[index]` (ie: args[0]).
   // args: ["1", "bitcoin", "btc-bitcoin", "btc", "1000000", "450"],
-  args: ["Please give me a name of Chainlink marine D&D character in one line"],
+  // args: ["Please give me a name of Chainlink marine D&D character in one line"],
+  args: ["Create a super hero a name of a Chainlink LINK marine on one line"],
   // Expected type of the returned value
   // expectedReturnType: ReturnType.uint256,
   expectedReturnType: ReturnType.string,
